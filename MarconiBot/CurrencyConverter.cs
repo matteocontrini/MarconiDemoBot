@@ -1,18 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MarconiBot
 {
-    enum Currency
-    {
-        EUR,
-        USD
-    }
-
-    class CurrencyConverter
+    class CurrencyConverter : ICurrencyConverter
     {
         private readonly List<ConversionRate> rates;
 

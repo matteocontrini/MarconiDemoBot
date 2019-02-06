@@ -53,8 +53,10 @@
   <ItemGroup>
     <Compile Include="Application.cs" />
     <Compile Include="ConversionRate.cs" />
+    <Compile Include="Currency.cs" />
     <Compile Include="CurrencyConverter.cs" />
     <Compile Include="IApplication.cs" />
+    <Compile Include="ICurrencyConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
