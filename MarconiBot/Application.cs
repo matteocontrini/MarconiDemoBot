@@ -33,7 +33,7 @@ namespace MarconiBot
                     s: inputText,
                     style: NumberStyles.Float,
                     provider: CultureInfo.GetCultureInfoByIetfLanguageTag("it"),
-                    out double input
+                    result: out double input
                 );
 
                 if (ok && input >= 0)
